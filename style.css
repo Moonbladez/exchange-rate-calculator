@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #5fbaa7;
+    --primary-color: rebeccapurple;
+    --dark: #333333;
 }
 
 * {
@@ -20,6 +21,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    color: var(--dark);
 }
 
 h1 {
@@ -90,6 +92,6 @@ button:focus {
 
 @media (max-width:600px) {
     .currency input {
-        width: 200px;
+        max-width: 600px;
     }
 }
